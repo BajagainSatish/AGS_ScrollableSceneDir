@@ -18,7 +18,7 @@ public class SlideView : MonoBehaviour
     }
     public void SwipeInputsLR()
     {
-        if (Input.touchCount > 0)
+        if (Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);
 
